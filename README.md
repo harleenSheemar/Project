@@ -1,78 +1,70 @@
-🏡 Real Estate Data Analysis and Machine Learning
-A comprehensive data science project focusing on Airbnb-style listings using Exploratory Data Analysis (EDA), feature engineering, classification modeling, and interactive Power BI dashboards.
+🏡 Real Estate Listings: EDA, Classification & Dashboard
 
-📑 Table of Contents
-1. Project Overview
-2. File Descriptions
-3. EDA Project.ipynb
-4. classification.ipynb
-5. listingsML.ipynb
-6. Cleaned.pbix
-7. Technologies Used
-8. Results and Visualizations
-9. Conclusion
+This project analyzes Airbnb-style listing data using Exploratory Data Analysis, Classification Modeling, and a Power BI Dashboard. It provides data-driven insights and predicts price categories through machine learning techniques.
 
-🚀 Project Overview
+🧭 Step-by-Step Breakdown
 
-This project dives into the analysis and prediction of real estate listings data using Python and Power BI.
-The pipeline involves:
+🧹 Preprocessing (listingsML.ipynb)
 
-Exploratory Data Analysis (EDA)
-Data preprocessing
-Classification model building using Logistic Regression
-Visual storytelling with Power BI
+1. Removed target leakage (price, price_class)
+2. Retained only informative features
+3. No categorical conversion for numeric features
+4. Dataset prepared for classification algorithms
 
-📁 File Descriptions
+📊 Exploratory Data Analysis (EDA Project.ipynb)
 
-📘 EDA Project.ipynb
+1. Explored price distribution, availability, and reviews
+2. Analyzed location-wise patterns and trends
+3. Identified feature relationships using heatmaps and pairplots
+4. Detected missing values and outliers
 
-This notebook performs initial Exploratory Data Analysis (EDA):
+🤖 Classification Modeling (classification.ipynb)
 
-i. Describes the dataset structure
-ii. Visualizes distributions and correlations
-iii. Highlights missing values and outliers
-iv. Useful for understanding the data before modeling
+1. Applied Logistic Regression to predict price classes
+2. Used only numerical features (as per dataset context)
+3. Visualized decision boundaries using contour plots
+4. Evaluated model with accuracy and confusion matrix
 
-📗 classification.ipynb
+📈 Dashboard & Reporting (Cleaned.pbix)
 
-This file focuses on Logistic Regression Classification:
-1. Prepares features and labels (binary classification)
-2. Applies logistic regression without converting any numerical features to categorical
-3. Includes model evaluation (accuracy, confusion matrix)
+1. Built an interactive Power BI dashboard
+2. Visual filters for availability, location, and price ranges
+3. KPIs for average price, minimum nights, number of reviews
+4. Map visualizations for geographic insights
 
-📙 listingsML.ipynb
+✅ Key Features
 
-This is a continuation of model development on the listings dataset:
+🧼 Clean and ready-to-model dataset
+📊 Professional Power BI Dashboard
+🧠 ML-driven price class prediction
+🔎 Insightful EDA for decision-making
+🛠️ Reusable pipeline for similar listings datasets
 
-More advanced machine learning pipelines
-Feature selection and backward elimination
-Data standardization and grid search
-Suitable for building and testing robust models
+🛠 Technologies Used
 
-📊 Cleaned.pbix
+Component	Tools / Libraries
+Data Handling	Python, Pandas, NumPy
+Visualization	Matplotlib, Seaborn, Power BI
+Modeling	scikit-learn (Logistic Regression)
+Dashboarding	Power BI Desktop
+Environment	Jupyter Notebook
 
-Power BI dashboard:
+DASHBOARD
 
-![Final1](https://github.com/user-attachments/assets/480b447f-b504-4627-b17b-7ab9cab5a0c9)
-![Final2](https://github.com/user-attachments/assets/1cf6828c-a6c2-4f99-9d45-7f2d9989ee6e)
+![Final1](https://github.com/user-attachments/assets/419e7dbc-edf6-4683-8359-08361762b30f)
+![Final2](https://github.com/user-attachments/assets/1b999eb2-75f3-4268-a79f-a0eeec0d0edd)
 
 
+🔍 Actionable Insights
 
-Visualizes insights from the cleaned dataset
-Includes interactive charts for price analysis, location-based filtering, and more
-Ideal for non-technical stakeholders to understand data patterns
+High-price areas can be identified using location-based KPIs
+Logistic model predicts if a listing falls in a high or low price category
+Dashboard helps non-technical users explore real estate trends
 
-🛠️ Technologies Used
-Python: pandas, numpy, matplotlib, seaborn, sklearn
-Jupyter Notebooks
-Power BI Desktop
-Machine Learning: Logistic Regression, Feature Engineering
-Data Visualization: Power BI, Matplotlib, Seaborn
+📁 Files Included
 
-📈 Results and Visualizations
-EDA showed strong relationships between price, location, and availability
-Logistic Regression model achieved acceptable accuracy with clear decision boundaries
-Power BI dashboard reveals trends in pricing and occupancy visually
-
-✅ Conclusion
-This project demonstrates the complete data science pipeline for real estate data, from raw exploration to insightful dashboards. It is suitable for educational, analytical, and real-world application development purposes
+1. Filename	Description
+2. EDA Project.ipynb	Exploratory data analysis
+3. classification.ipynb	Logistic regression classifier
+4. listingsML.ipynb	Preprocessing & model preparation
+5. Cleaned.pbix	Interactive dashboard built in Power BI
