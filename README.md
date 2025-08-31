@@ -65,6 +65,6 @@ Dashboard helps non-technical users explore real estate trends
 
 1. Filename	Description
 2. EDA Project.ipynb	Exploratory data analysis
-3. classification.ipynb	Logistic regression classifier
-4. listingsML.ipynb	Preprocessing & model preparation
+3. ML_project2.ipynb	Logistic regression classifier
+4. Ml Project.ipynb	Preprocessing & model preparation
 5. Cleaned.pbix	Interactive dashboard built in Power BI
